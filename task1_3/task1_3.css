@@ -1,0 +1,95 @@
+*{
+	margin:0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Arial'
+	list-style:none;
+	text-decoration: none;
+}
+
+.clear:after{
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: "";
+}
+
+.clear{
+	overflow: hidden;
+	zoom:1;
+}
+
+body,.left,.right,.main,.team,.personal{
+	border: 1px solid #999;
+}
+
+body{
+	position: relative;
+	min-width: 500px;
+	margin: 20px 50px;
+	padding: 20px;
+	background: #eee;
+}
+
+.left{
+	float: left;
+	width: 200px;
+	padding: 20px;
+	background: #fff;
+}
+
+.team{
+	display: inline-block;
+	float: left;
+	width: 80px;
+	height: 80px;
+}
+
+.team img,.personal img{
+	width: 80px;
+	height: 80px;
+}
+
+.left label{
+	font-weight: bold;
+	float: left;
+	width: 90px;
+	margin-top: 30%；
+	margin-left:8px;
+	transform: translateY(-50%);
+	text-align: center;
+}
+
+.main{
+	width: auto;
+	height: auto;
+	margin-right: 160px;
+	margin-left: 280px;
+	padding: 20px;
+	background: #fff;
+}
+
+
+
+.mian p{
+	font-size: 15px;
+	line-height: 25px;
+	margin-top: 20px;
+	letter-spacing: 2px;
+	word-break: break-all;
+}
+.right{
+	float: right;
+	width: 120px;
+	background: #fff;
+}
+
+.personal{
+	box-sizing: border-box;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
